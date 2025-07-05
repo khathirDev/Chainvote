@@ -74,20 +74,21 @@ const ProposalView = () => {
                     </div>
                     
                     {/* Stats Bar */}
-                    <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-4">
-                        <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-6">
+                    <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-3 sm:p-4">
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+                            <div className="flex flex-col xs:flex-row xs:items-center gap-3 xs:gap-4 sm:gap-6">
                                 <div className="flex items-center gap-2">
                                     <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                                    <span className="text-slate-300 font-medium">Live Voting</span>
+                                    <span className="text-slate-300 font-medium text-sm sm:text-base">Live Voting</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                                    <span className="text-slate-300 font-medium">DAO Governance</span>
+                                    <span className="text-slate-300 font-medium text-sm sm:text-base">DAO Governance</span>
                                 </div>
                             </div>
-                            <div className="text-slate-400 text-sm">
-                                ⚠️Chainvote doesn't support voting on testnet yet. This is a demo view.
+                            <div className="text-slate-400 text-xs sm:text-sm">
+                                <span className="block xs:inline">⚠️ Chainvote doesn't support voting on sui testnet yet.</span>
+                                <span className="block xs:inline xs:ml-1">This is a demo view.</span>
                             </div>
                         </div>
                     </div>
