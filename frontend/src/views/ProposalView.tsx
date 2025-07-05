@@ -65,7 +65,7 @@ const ProposalView = () => {
                         <div className="w-2 h-12 bg-gradient-to-b from-blue-400 to-purple-500 rounded-full"></div>
                         <div>
                             <h1 className="text-5xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent mb-2">
-                                New Proposals
+                                Proposals
                             </h1>
                             <p className="text-slate-400 text-lg">
                                 {proposalIds.length} {proposalIds.length === 1 ? 'proposal' : 'proposals'} available for voting
