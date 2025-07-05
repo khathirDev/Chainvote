@@ -85,7 +85,7 @@ export const VoteModal: FC<VoteModalProps> = ({
 
     showToast("Processing transaction...");
     signAndExecute({
-      transaction: tx as Transaction,
+      transaction: tx as any, // Type assertion to any to avoid type issues
       }, {
         onError: () => {
           alert("Error signing transaction");
