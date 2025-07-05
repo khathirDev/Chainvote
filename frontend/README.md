@@ -1,33 +1,26 @@
-# React Starter Template
+## 🗳️ ChainVote
 
-This app was created using `create-eincode-app` that sets up a basic React
-app using the following tools:
+**ChainVote** is a decentralized voting system powered by the Sui blockchain. Designed for transparency and trust, it enables on-chain proposal registration and voting with cryptographic integrity and full user ownership.
 
-- [React](https://react.dev/) as the UI framework
-- [TypeScript](https://www.typescriptlang.org/) for type checking
-- [Vite](https://vitejs.dev/) for build tooling
-- [Tailwind](https://tailwindcss.com/) for css
-- [ESLint](https://eslint.org/)
-- [pnpm](https://pnpm.io/) for package management
+- ⚡ Built with Move for secure smart contracts
+- 💡 React + Vite frontend with wallet integration
+- 🔐 Admin-cap controlled proposal management
+- 🌐 Supports Devnet, Testnet, and Mainnet
 
-## Starting your dApp
+> Ideal for DAOs, governance platforms, community decision-making, or any scenario where integrity and decentralization matter.
 
-To install dependencies you can run
+---
 
-```bash
-pnpm install
-```
+🚀 **Live Demo**: [chainvote.vercel.app](https://chainvote.vercel.app)  
+📦 **Contract Code**: [`contracts/`](./contracts)  
+🎨 **Frontend UI**: [`frontend/`](./frontend)
 
-To start your dApp in development mode run
+---
 
-```bash
-pnpm dev
-```
+## 🛠️ Tech Stack
 
-## Building
-
-To build your app for deployment you can run
-
-```bash
-pnpm build
-```
+- **Sui Move** – Smart contracts
+- **Vite + React** – Frontend
+- **@mysten/dapp-kit** – Wallet support
+- **Tailwind CSS** – UI styling
+- **Vercel** – Deployment
